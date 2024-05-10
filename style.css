@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D9CDF7;
+    font-family: Lato, sans-serif;
+    height: 100vh;
+    color: #271A45;
+}
+
+h1 {
+    font-family:Crimson Pro, serif;
+    font-size: 2.2rem;
+    padding-block: 1rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    opacity: 80%;
+    padding-bottom: 1.4rem;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.info {
+    width: 24%;
+    margin-left: 38%;
+}
+
+button {
+    padding: 10px;
+    border-radius: 999px;
+    background: none;
+
+    width: fit-content;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #271A45;
+    color: #D9CDF7;
+}
